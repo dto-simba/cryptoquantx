@@ -22,7 +22,7 @@ const GlobalNavbar: React.FC = () => {
   const marketDataApiCallInProgress = useRef<boolean>(false);
 
   // 主流币种列表
-  const mainCoins = ['BTC-USDT', 'ETH-USDT', 'XRP-USDT', 'SOL-USDT', 'DOGE-USDT', 'SUI-USDT'];
+  const mainCoins = ['BTC-USDT', 'ETH-USDT'];
 
   // 获取行情数据
   const fetchMarketData = async () => {
